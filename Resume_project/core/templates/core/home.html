@@ -1,0 +1,31 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/jitesh.jpg' %}" alt="ProfilePhoto" 
+        class="img-thumbnail" width=200px height=300px>
+    </div>
+
+    <div class="mt-3 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello,</h1>
+        <div class="px-5" style="line-height:2rem;">
+            <p style="text-indent:100px;"> I am <b class="text-warning">ABCD</b>. Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Iure vel, sed autem nostrum quam minima? Velit odit iste reiciendis, 
+                libero expedita ullam voluptatum beatae sapiente veritatis at. Corporis, doloremque deserunt. 
+            </p>
+            <p>I am working in <b class='text-warning'>XYZ company, Bangalore</b> Lorem, ipsum dolor sit amet consectetur 
+                 esse accusantium ullam cupiditate provident, suscipit at repellat libero voluptatem itaque. <b class="text-warning"> 
+            Lorem ipsum dolor sit.</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, repudiandae?</p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact'%}" class="btn btn-outline-warning my-3 mr-5">Hire</a>
+        <a href="{% url 'contact'%}" class="btn btn-outline-info my-3">Contact</a>
+    </div>
+</div>
+
+{% endblock content %}

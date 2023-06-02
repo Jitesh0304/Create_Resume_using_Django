@@ -1,0 +1,41 @@
+/* font css */
+.st-font {
+    font-family: 'Lobster';
+}
+
+html,body{
+    height:100%;
+}
+
+.container_fluid{
+    min-height: 100%;
+}
+
+a.nav-link{
+    color: white;
+}
+
+a.nav-link:hover{
+    color: gray;
+    background-color: rgb(238, 234, 5);
+}
+
+a.nav-link.active{
+    color: black;
+    background-color: rgb(238, 234, 5);
+    font-weight: bold;
+}
+
+
+
+
+/* service icon  */
+.i-color{
+    color: chartreuse;
+}
+
+/* service subtitle */
+.ss-color{
+    color: wheat;
+}
+
